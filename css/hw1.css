@@ -10,7 +10,7 @@ body{
 header{
 
     display: block;
-    background: rgb(161, 157, 161) url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+    background: rgb(161, 157, 161) url("../img/flywheel.jpg");
     background-size: cover;
     text-align:center;
     padding-bottom: 0.3em;

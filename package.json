@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf distfrisbee",
     "imagemin": "imagemin img/* --out-dir=distfrisbee/img",
-    "usemin": "usemin index.html -d distfrisbee --htmlmin -o distfrisbee/index.html",
+    "usemin": "usemin index.html -d distfrisbee --htmlmin -o distfrisbee/index.html && usemin teams.html -d distfrisbee --htmlmin -o distfrisbee/teams.html && usemin history.html -d distfrisbee --htmlmin -o distfrisbee/history.html",
     "build": "npm run clean && npm run imagemin && npm run usemin"
   },
   "author": "Arnoldo Sanchez N.",
